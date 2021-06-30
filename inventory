@@ -5,10 +5,10 @@ ansible_become_method=sudo
 ansible_become_pass='{{ secret_password }}'
 
 [all]
-main ansible_host=10.48.2.84 ansible_user=mathurin ansible_ssh_private_key_file=/Users/mathurin.kasten/Ansible/Nutanix/ansible
-folding1 ansible_host=10.48.2.76 ansible_user=mathurin ansible_ssh_private_key_file=/Users/mathurin.kasten/Ansible/Nutanix/ansible
-folding2 ansible_host=10.48.2.125 ansible_user=mathurin ansible_ssh_private_key_file=/Users/mathurin.kasten/Ansible/Nutanix/ansible
-folding3 ansible_host=10.48.2.86 ansible_user=mathurin ansible_ssh_private_key_file=/Users/mathurin.kasten/Ansible/Nutanix/ansible 
+main ansible_host=<Host_IP> ansible_user=mathurin ansible_ssh_private_key_file=/Users/mathurin.kasten/Ansible/Nutanix/ansible
+folding1 ansible_host=<Host_IP> ansible_user=mathurin ansible_ssh_private_key_file=/Users/mathurin.kasten/Ansible/Nutanix/ansible
+folding2 ansible_host=<Host_IP> ansible_user=mathurin ansible_ssh_private_key_file=/Users/mathurin.kasten/Ansible/Nutanix/ansible
+folding3 ansible_host=<Host_IP> ansible_user=mathurin ansible_ssh_private_key_file=/Users/mathurin.kasten/Ansible/Nutanix/ansible 
 
 [Folding-Servers]
 folding1
